@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Bytez - Delicious Food Delivery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header with Orange Theme -->
+    <header class="orange-header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Food Bytez Logo">
+                <h1>Food Bytez</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="#specials">Specials</a></li>
+                    <li><a href="customer-service.html">Customer Service</a></li>
+                    <li><a href="login.html" class="login-btn">Login</a></li>
+                    <li>
+                        <a href="#" class="cart-icon" id="cart-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="cart-count">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Delicious Food Delivered To Your Doorstep</h2>
+                <p>Order your favorite meals from the best restaurants in town</p>
+                <a href="menu.html" class="btn">Order Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Categories -->
+    <section class="categories">
+        <div class="container">
+            <h2>Our Categories</h2>
+            <div class="category-grid">
+                <div class="category-item">
+                    <img src="images/burger.jpg" alt="Burgers">
+                    <h3>Burgers</h3>
+                    <a href="menu.html#burgers" class="btn-small">View All</a>
+                </div>
+                <div class="category-item">
+                    <img src="images/pizza.jpg" alt="Pizzas">
+                    <h3>Pizzas</h3>
+                    <a href="menu.html#pizzas" class="btn-small">View All</a>
+                </div>
+                <div class="category-item">
+                    <img src="images/sushi.jpg" alt="Sushi">
+                    <h3>Sushi</h3>
+                    <a href="menu.html#sushi" class="btn-small">View All</a>
+                </div>
+                <div class="category-item">
+                    <img src="images/desserts.jpg" alt="Desserts">
+                    <h3>Desserts</h3>
+                    <a href="menu.html#desserts" class="btn-small">View All</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Offers -->
+    <section class="specials" id="specials">
+        <div class="container">
+            <h2>Today's Special Offers</h2>
+            <div class="special-grid">
+                <div class="special-item">
+                    <img src="images/special-burger.jpg" alt="Special Burger">
+                    <h3>Mega Burger Combo</h3>
+                    <p class="price">$12.99 <span class="old-price">$15.99</span></p>
+                    <button class="btn-small add-to-cart" data-id="1">Add to Cart</button>
+                </div>
+                <div class="special-item">
+                    <img src="images/special-pizza.jpg" alt="Special Pizza">
+                    <h3>Family Pizza</h3>
+                    <p class="price">$18.99 <span class="old-price">$22.99</span></p>
+                    <button class="btn-small add-to-cart" data-id="2">Add to Cart</button>
+                </div>
+                <div class="special-item">
+                    <img src="images/special-sushi.jpg" alt="Special Sushi">
+                    <h3>Sushi Platter</h3>
+                    <p class="price">$24.99 <span class="old-price">$29.99</span></p>
+                    <button class="btn-small add-to-cart" data-id="3">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial active">
+                    <p>"The food arrived hot and delicious. Best delivery service in town!"</p>
+                    <div class="customer">
+                        <img src="images/customer1.jpg" alt="Customer 1">
+                        <h4>Rain Secjadas</h4>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <p>"Fast delivery and amazing customer service. Highly recommend!"</p>
+                    <div class="customer">
+                        <img src="images/customer2.jpg" alt="Customer 2">
+                        <h4>Aloysius Benedict Quino</h4>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Food Bytez</h3>
+                    <p>Delivering delicious food since 2023</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="#specials">Specials</a></li>
+                        <li><a href="customer-service.html">Customer Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <p>123 Food Street, Santa Ana st.</p>
+                    <p>Phone: (123) 456-7890</p>
+                    <p>Email: info@foodbytez.com</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Food Bytez. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Shopping Cart Sidebar -->
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <button class="close-cart">&times;</button>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <!-- Cart items will be added here dynamically -->
+            <p class="empty-cart">Your cart is empty</p>
+        </div>
+        <div class="cart-total">
+            <p>Total: <span id="cart-total">$0.00</span></p>
+            <a href="payment.html" class="btn checkout-btn">Checkout</a>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>
